@@ -23,6 +23,7 @@ const drive = google.drive({
   auth: oauth2Client,
 });
 const filepath = path.join(__dirname, "controller.jpg");
+const folderName = ""
 
 const uploadTODrive = async () => {
   try {
